@@ -1,0 +1,428 @@
+@font-face {
+	font-family: 'FranklinGothic';
+	src: url('../fonts/FRABK.eot');
+	src: local('☺'), url('../fonts/FRABK.woff') format('woff'), url('../fonts/FRABK.ttf') format('truetype'), url('../fonts/FRABK.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+   font-family: 'Franklin Gothic';
+}
+nav{
+    width: 100%;
+    height: 60px; 
+    background: #3a4f6c;
+    position: fixed;
+    font-family: 'Franklin Gothic';
+    
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left: 428px;
+    color: white; 
+       
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase; 
+    
+} 
+.menu li a{
+    transition: all 0.5s;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu li a:visited{
+    color: white;
+     
+}
+.menu li a:hover{
+    color: #e88604;  
+    transform:scale(1.1);
+}
+.main{
+    width: 100%;
+    height: 1067px;
+    background: url(../img/bg.png) center/cover no-repeat;
+    font-family: 'Franklin Gothic';
+}
+.title__container{
+    float: left;
+    padding-left: 350px;
+    padding-top: 400px;
+    text-align: center; 
+}
+.title__container h1{
+    font-size: 80px;    
+    color: #2c384a;
+}
+.title__container h4{
+    font-size: 21px;  
+    color: #79818d;
+    margin-top: 30px;
+}
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #465975;
+    border-color: #465975;
+    font-size: 13px;
+    padding: 0 16px;
+    margin: 58px 14px 0 14px; 
+}
+
+.title__container input:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+    background: #3a4f6c;
+    color: white;
+}
+
+
+
+.about_me{    
+    width: 1920px;
+    height: 700px;
+    text-align: center;     
+    font-weight: 700;
+    color: #323e4f;
+}
+.img{
+    margin-top: 31px;
+    text-align: center;
+}
+.about_me h2{
+    margin-top: 108px;
+    font-size: 33px;
+    font-family: 'Franklin Gothic';    
+}
+.text_about_me{
+    width: 750px;
+    height: 105px;
+    margin-left: 595px;
+   }
+.text_about_me p{
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic';    
+}
+
+.about_me input{
+    margin-top: 37px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    padding: 0 12px 0 12px;
+    font-size: 13px;
+}
+
+
+.what_can_i{   
+    width: 100%;
+    height: 524px;
+    background: url(../img/what_can_i_bg.png) center/cover no-repeat;
+    text-align: center;
+}
+.what_can_i h2{    
+    padding-top: 88px;;
+    font-size: 35px;
+    font-family: 'FranklinGothic';
+    font-weight: 700;
+    color: #323e4f;
+}
+.what_can_i img{
+    margin-top: 21px;
+}
+.pic4 {
+    font-family: 'FranklinGothic';
+    width:  1089px;
+    height: 160px; 
+    margin: 46px 0 0 369px;
+    font-weight: 700;
+    color: #323e4f;
+    -webkit-animation: from_left 1s ease;
+    -o-animation: from_left 1s ease;
+    animation: from_left 1s ease;
+}
+.pic4_container{
+    float: left;
+    width:  25%;
+    text-align: center;
+}
+.pic4 h4{
+    margin-top:  34px;
+    color: #cf7600;
+    font-size: 24px;
+    font-weight: 700;
+}
+.pic4_p{
+    margin-top: 14px;
+    color: #515a69;
+    font-size: 18px;
+}
+.symbol{
+    margin-bottom: -3px;
+}
+.rocket{
+    margin-bottom: -3px;
+}
+.speaker{
+    margin-bottom: -8px;
+}
+
+@keyframes from_left{
+    from {
+        margin-left: -500px;
+    }
+    to{
+        margin-left: 369px;
+    }
+}
+
+
+.cases_calculator{
+    width: 100%;
+    height: 2008px;
+}
+.cases{
+    width: 100%;
+    height: 1004px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic';
+    color: #384354;
+}
+.cases h2{
+    margin-top: 117px;
+    font-size: 33px;   
+    line-height: 20px;
+    font-weight: 700;
+}
+.cases img{
+    margin-top: 30px;
+}
+.cases p{
+    margin-top: 35px;
+    font-size: 17px;
+}
+.cases_img img{
+    margin-top: 37px;
+}
+
+.about_site{
+    width: 1169px;
+    height: 212px;
+    margin-top: 38px;
+    margin-left: 388px;
+    display: flex;
+}
+.inf_cases{
+    width: 203px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.name_client{    
+    line-height: 20px;       
+    color: #384354;
+}
+.name_client h3{
+    font-size: 25px;
+    font-weight: 500; 
+    padding-left: -30px;
+    margin-bottom: -25px;
+}
+.name_client p{
+    font-size: 17px;    
+    margin-bottom: 14px;
+}
+.about_site input{
+    width: 201px;
+    height: 44px;
+    color: white;
+    background-color: #63b5ae;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.name_website{
+    font-size: 25px;
+    line-height: 20px;       
+    color: #384354;
+}
+.name_website h3{
+    margin-bottom: -25px;
+    font-weight: 500; 
+}
+.name_website p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.name_project{
+    width: 583px;
+    height: 100px;
+    font-size: 25px;
+    line-height: 20px;       
+    color: #384354;
+    text-align: start;
+    margin-left: 214px;    
+}
+.name_project h3{
+    margin-bottom: -20px;
+    font-weight: 500; 
+}
+.name_project p{
+    font-size: 17px;
+}
+
+
+
+#Calc{
+    margin-top: 100px;
+    height: 687px;
+    font-family: 'FranklinGothic';
+}
+.Calculator h2{
+    text-align: center;
+    margin-bottom: 54px;
+    font-weight: 700;
+    font-size: 46px;
+}
+.Calculator h3{
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.Calculator select{
+    margin-bottom: 44px;
+    font-size: 17px;    
+    height: 57px;
+    background-color: #eeeeee;
+}
+.Calculator h4{
+    margin-bottom: 27px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Calculator h4.left_h4{
+    margin-bottom: 27px;
+    float: left;
+    width: 50%;
+}
+.Calculator h4.right_h4{
+    margin-bottom: 27px;
+    float: left;
+    text-align: right;
+    width: 50%;
+}
+
+
+.statistics{
+    background: url(../img/statistics_bg.png) center/cover no-repeat;
+    width:  100%;
+    height: 500px; 
+    text-align: center;
+    font-family: 'FranklinGothic';
+}
+.statistics h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #323e4f;
+    padding-top: 88px;
+}
+.statistics img{
+    padding-top: 21px;
+}
+.pic4_statics {
+    width:  1089px;
+    height: 160px; 
+    margin: 46px 0 0 369px;  
+}
+.pic4_statics_container{
+    float: left;
+    width:  25%;
+    text-align: center;
+}
+.pic4_statics h4{
+    margin-top:  34px;
+    color: #cf7600;
+    font-size: 33px;
+    font-weight: 700;
+    color: #323e4f;
+}
+.pic4_statics_p{
+    margin-top: 14px;
+    color: #515a69;
+    font-size: 20px;
+    color: #323e4f;
+    font-weight: 700;
+}
+
+
+.reviews{
+    width: 100%;
+    height: 591px;
+    font-family: 'FranklinGothic';
+    text-align: center;
+    color: #323e4f;
+}
+.reviews h2{
+    padding-top: 88px;
+    font-weight: 700;
+}
+.Line{
+    padding-top: 21px;
+}
+.photo_man{
+    padding-top: 50px;
+    margin-bottom: 33px;
+}
+.reviw_text{
+    width: 965px;
+    margin-left: 438px;
+}
+.reviews p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.my_contacts{
+    height: 808px;
+    width: 100%;
+    background: url(../img/contacts_bg.png) center/cover;
+    color: white;
+}
+.my_contacts h2{
+    padding-top: 74px;
+    padding-left: 848px; 
+}
+.my_contacts img{
+    margin-top: 21px;
+    margin-left: 923px;
+}
+.my_contacts p{
+    margin-top: 31px;
+    margin-left: 923px;
+}
